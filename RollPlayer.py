@@ -19,4 +19,4 @@ async def on_message(message):
 
         await client.send_message(message.channel, "<@!" + message.author.id + ">:\n" + msg)
 
-client.run(os.environ('DISCORD_BOT_TOKEN'))
+client.run(os.environ['DISCORD_BOT_TOKEN'])
